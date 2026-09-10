@@ -1,0 +1,188 @@
+body{
+    background-color: white;
+    line-height: 1.3;
+}
+
+h1{
+font-size: 1em;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+font-style: normal;
+}
+
+h2{
+font-size: 1em;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+font-weight: normal;
+font-style: italic;
+padding: 0px;
+margin: 0px;
+padding-bottom: 1em;
+}
+
+h3{
+font-size: 1em;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+font-weight: normal;
+font-style: italic;
+padding: 0px;
+margin: 0px;
+padding-bottom: 1em;
+}
+
+p{
+font-size: 1em;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+padding: 0px;
+margin: 0px;
+font-style: normal;
+padding-bottom: 1em;
+}
+
+em{
+    font-style: italic;
+}
+
+.header{
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+a {
+    color: black;
+}
+
+.thumbnail-link {
+    text-decoration: none;
+}
+
+.thumbnail h2,
+.thumbnail p {
+    text-decoration: underline;
+}
+
+.thumbnail-link:hover h2,
+.thumbnail-link:hover p {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    background-color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: white;
+    text-decoration: underline;
+}
+
+.label{
+    background-color: white;
+    text-decoration: none;
+}
+
+.label:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
+.thumbnail{
+width: 100%;
+height: auto;
+padding-bottom: 2em;
+}
+
+img{
+    max-width: 900px;
+    max-height: 900px;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+}
+
+  figcaption {
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+
+video{
+    margin-bottom: 1em;
+    margin-right: 1em;
+    vertical-align: top;
+}
+
+.container{
+    padding: 1em;
+    padding-top: 6em;
+}
+
+.textblock{
+    max-width: 700px;
+}
+
+blockquote{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+figure{
+    display: inline-block;  
+    padding-right: 0;
+    margin-right: 0;
+}
+
+figure img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+@media screen and (max-width: 700px) {
+.thumbnail{
+width: 100%;
+height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+figure {
+    max-width: 50%;
+    margin-left: 0em;
+}
+
+video{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+.header{
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+}
