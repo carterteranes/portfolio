@@ -115,7 +115,7 @@ img{
     vertical-align: top;
 }
 
-  figcaption {
+figcaption {
     font-size: 0.7rem;
     font-style: italic;
   }
@@ -185,4 +185,20 @@ video{
     z-index: 1000;
 }
 
+}
+
+.box {
+    display: none;
+}
+
+.box.visible {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.active {
+  color: grey;
 }

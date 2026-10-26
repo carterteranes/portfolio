@@ -22,38 +22,59 @@
             <p style="padding-bottom: 2em;">Carter Teranes is a graphic designer and artist based in Richmond, VA. He is currently working towards his MFA in Graphic Design at Virginia Commonwealth University.</p>
         </div>
 
-        <a class="thumbnail-link" href="the-game.html">
-        <div class="thumbnail">
-            <img height="700px" width="auto" src="imgs/the-game/the-game-poster-font-75.jpg">
+    <div class="filter" style="margin-bottom: 2em;">
+      <!-- the class on the button should match the class of the elements that it will filter -->
+      <button class="all active">all</button>
+      <button class="publication">publication</button>
+      <button class="poster">poster</button>
+      <button class="typeface">typeface</button>
+      <button class="website">website</button>
+      <button class="event">event</button>
+      <button class="object">object</button>
+      <button class="other">other</button>
+    </div>
 
+
+        <div class="box all event poster visible">
+            <a class="thumbnail-link" href="the-game.html">
+            <div class="thumbnail">
+                <img height="700px" width="auto" src="imgs/the-game/the-game-poster-font-75.jpg">
             <h2>The Game</h2>
+            </div>
+            </a>
         </div>
-        </a>
 
-        <a class="thumbnail-link" href="chicago-journal.html">
-        <div class="thumbnail">
-            <img src="imgs/chicago-journal/01-img20261008_15300018.jpg">
+        <div class="box all publication visible">
+            <a class="thumbnail-link" href="chicago-journal.html">
+            <div class="thumbnail">
+                <img src="imgs/chicago-journal/01-img20261008_15300018.jpg">
             <h2>Chicago Journal of Visual Art: Issue I</h2>
+            </div>
+            </a>
         </div>
-        </a>
 
-        <a class="thumbnail-link" href="list.html">
-        <div class="thumbnail">
-            <img src="imgs/list/list-project-composite-02-mock.jpg">
+        <div class="box all event other visible">
+            <a class="thumbnail-link" href="list.html">
+            <div class="thumbnail">
+                <img src="imgs/list/list-project-composite-02-mock.jpg">
             <figure>
                     <img src="imgs/list/A0020188.jpg">
                 </figure><br>
             <h2>A-Bi-Co-De-En-Ex-Re-Un-Listing the Library</h2>
+            </div>
+            </a>
         </div>
-        </a>
 
+        <div class="box all website visible">
         <a class="thumbnail-link" href="common-colors.html">
             <div class="thumbnail">
                 <img src="imgs/common-colors4.png"><br>
                 <h2>Common Colors</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all event publication poster visible">
         <a class="thumbnail-link" href="type-writing.html">
             <div class="thumbnail">
                     <video style="border: 1px solid black; aspect-ratio: 4 / 5;" height="700px" autoplay muted preload loop playsinline>
@@ -62,21 +83,27 @@
                 <h2>Type-Writing: An Exploratory Typographic Workshop</h2>
             </div>
         </a>
+        </div>
         
+        <div class="box all publication visible">
         <a class="thumbnail-link" href="towards-an-archive.html">
             <div class="thumbnail">
                 <img src="imgs/towards-an-archive/A0001030.jpg">
                 <h2>Towards an Archive of Visual Concepts</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all publication visible">
         <a class="thumbnail-link" href="typists-strikes.html">
             <div class="thumbnail">
                 <img src="imgs/typists-strikes/typist-strikes-scans 1.jpg">
                 <h2>Accounts of British Typists’ Strikes</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all typeface visible">
         <a class="thumbnail-link" href="toronto.html">
             <div class="thumbnail">
                 <img height="700px" src="imgs/toronto/toronto-specimen.jpg">
@@ -87,21 +114,27 @@
                 <h2>Toronto</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all publication visible">
         <a class="thumbnail-link" href="words.html">
             <div class="thumbnail">
                 <img src="imgs/words/words-scan-02 copy 2.jpg">
                 <h2>Words</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all publication visible">
         <a class="thumbnail-link" href="1hour.html">
             <div class="thumbnail">
                 <img src="imgs/1hour/A0000787.jpg">
                 <h2>1 Hour, 19 Minutes</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all object visible">
         <div class="thumbnail">
             <img height="600px" src="imgs/furniture/A0001367.jpg">
 
@@ -112,14 +145,18 @@
 
             <h3>Studio Table</h3>
         </div>
+        </div>
 
+        <div class="box all event poster publicaiton visible">
         <a class="thumbnail-link" href="rituals.html">
             <div class="thumbnail">
                 <img src="imgs/4009/4009 Web Carter-23.jpg">
                 <h2>Rituals I Can't Complete</h2>
             </div>
         </a>
+        </div>
 
+        <div class="box all event publicaiton visible">
             <div class="thumbnail">
                 <img src="imgs/4009/gallery4009-ella+cedric-scans-covers.png">
                 <figure>
@@ -129,9 +166,12 @@
                 </figure>
                 <h3>Q4:→ 1 Billion Poppy Seeds</h3>
             </div>
+        </div>
 
 
     </div>
 
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
