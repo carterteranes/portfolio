@@ -152,6 +152,15 @@ figure img {
     max-height: 300px;
 }
 
+.columnbox {
+  display: flex;
+  gap: 10px
+}
+
+.column {
+  flex: 1;
+}
+
 @media screen and (max-width: 700px) {
 .thumbnail{
 width: 100%;
